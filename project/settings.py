@@ -25,7 +25,9 @@ SECRET_KEY = 'k-lw=tzr((umuenx))k7sxn3fgx$31&9e6&1cq_@iw884rbmb%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://cs165dota.herokuapp.com/',
+]
 
 
 # Application definition
